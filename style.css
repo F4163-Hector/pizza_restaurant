@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+body {
+  background-color: #e84242;
+  height: 200vh;
+}
+.logo {
+  width: 100px;
+}
+.header1 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 20px 7%;
+  border-radius: 50px;
+  box-shadow: 3px 3px 7px white;
+  position: sticky;
+  top: 3px;
+  z-index: 1000;
+}
+.navbar a {
+  color: black;
+  font-size: 25px;
+  margin: 0 20px;
+  border-bottom: 1px solid transparent;
+}
+.navbar .active,
+.navbar a:hover {
+  border-color: #e84242;
+  padding-bottom: 2px;
+}
+.buttons button {
+  cursor: pointer;
+  font-size: 25px;
+  border: none;
+  margin-left: 25px;
+  background-color: transparent;
+}
+.home {
+  background: url(./images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -144px;
+  background-position: center;
+  display: flex;
+}
+.home h1 {
+  font-size: 60px;
+  color: white;
+  margin-top: 20%;
+}
+.home p {
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  width: 60%;
+  margin-top: 40px;
+}
+.home-container {
+  padding: 0 7%;
+}
+
+.home-button {
+  height: 60px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  background-color: darkorange;
+  margin-top: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px gray;
+  color: white;
+}
+.home-button:hover {
+  transform: scale(1.13);
+}
+
+
+
